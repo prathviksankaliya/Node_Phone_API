@@ -15,8 +15,8 @@ app.use(bodyParser.json());
 // Static phone numbers (plz enter verified phone numbers)
 let caller = [
     process.env.DARSH_PHONE_NUMBER,
-    process.env.C1_PHONE_NUMBER,
-    process.env.R1_PHONE_NUMBER,
+    // process.env.C1_PHONE_NUMBER,
+    // process.env.R1_PHONE_NUMBER,
     process.env.B1_PHONE_NUMBER
 ]
 // POST endpoint to receive JSON data
